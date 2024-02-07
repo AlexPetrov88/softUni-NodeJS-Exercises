@@ -1,0 +1,83 @@
+[
+  {
+    "id": "123456",
+    "city": "Bansko",
+    "description": "Cozy room with nice view",
+    "name": "room",
+    "beds": 2,
+    "price": 100,
+    "imgUrl": "/static/assets/room1.jpg"
+  },
+  {
+    "id": "00000097887",
+    "city": "Bansko",
+    "description": "Cozy room with nice view",
+    "name": "room",
+    "beds": 2,
+    "price": 100,
+    "imgUrl": "/static/assets/room1.jpg"
+  },
+  {
+    "id": "0000005a1e7",
+    "city": "Bansko",
+    "description": "Cozy room with nice view",
+    "name": "room",
+    "beds": 2,
+    "price": 100,
+    "imgUrl": "/static/assets/room1.jpg"
+  },
+  {
+    "id": "000000f3ff5",
+    "city": "Bansko",
+    "description": "Cozy room with nice view",
+    "name": "room",
+    "beds": 2,
+    "price": 100,
+    "imgUrl": "/static/assets/room1.jpg"
+  },
+  {
+    "id": "00000089352",
+    "city": "Sofia",
+    "description": "Grand room with special view!",
+    "name": "Grand special room",
+    "beds": "3",
+    "price": "150",
+    "imgUrl": "/static/assets/room2.jpg"
+  },
+  {
+    "id": "000000de241",
+    "city": "sofia",
+    "description": "Best Hotel in town!",
+    "name": "Grand Hotel",
+    "beds": 120,
+    "price": 100,
+    "imgUrl": "999"
+  },
+  {
+    "id": "0000002eecd",
+    "city": "sofia33",
+    "description": "Best Hotel in town! 33",
+    "name": "Grand Hotel 33",
+    "beds": 120,
+    "price": 100,
+    "imgUrl": "999"
+  },
+  {
+    "id": "000000cc92d",
+    "city": "sofia33333",
+    "description": "Best Hotel in town! 33333",
+    "name": "Grand Hotel 3333",
+    "beds": 120,
+    "price": 100,
+    "imgUrl": "999"
+  },
+  {
+    "id": "0000005e510",
+    "city": "Sofia",
+    "description": "Best room in down town!",
+    "name": "Room 2",
+    "beds": 3,
+    "price": 133,
+    "imgUrl": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+  }
+]
