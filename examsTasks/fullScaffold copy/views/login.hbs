@@ -1,0 +1,27 @@
+<section class="login-form-container">
+
+        <form method="post" action="/auth/login">
+            <h3>Login</h3>
+
+            <label>Email</label>
+            <input type="email" name="email" class="box" id="" value="{{body.email}}">
+
+            <label>Password</label>
+            <input type="password" name="password" class="box" id="">
+
+            <input type="submit" value="Login" class="btn">
+
+            <p>Don't have an account ? <a href="/auth/register">Create one</a></p>
+        </form>
+    </section>
+
+{{!-- <section id="viewLogin">
+        <h2>Login:</h2>
+        <form id="formLogin" method="post" action="/auth/login">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="email" placeholder="Enter your Username" value="{{body.email}}">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your Password">
+            <input type="submit" class="login" value="Login">
+        </form>
+</section> --}}

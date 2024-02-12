@@ -1,0 +1,34 @@
+<section class="create-form-container">
+        <form method="post" action="/hotel/create">
+            <h3>Create Book Review</h3>
+            <label>Title</label>
+            <input type="text" name="title" class="box" id="" value="{{body.title}}">
+            <label>Author</label>
+            <input type="text" name="author" class="box" id="" value="{{body.author}}">
+            <label>Genre</label>
+            <input type="text" name="genre" class="box" id="" value="{{body.genre}}">
+            <label>Stars</label>
+            <input type="number" name="stars" class="box" id="" value="{{body.stars}}">
+            <label>Image</label>
+            <input type="text" name="image" class="box" id="" value="{{body.image}}">
+            <label>Review</label>
+            <textarea class="box" name="review">{{body.review}}</textarea>
+            <input type="submit" value="Create" class="btn">
+        </form>
+    </section>
+
+{{!-- <section id="viewAddhotel">
+    <h2>Add new hotel</h2>
+    <form id="formAddhotel" method="post" action="/hotel/create">
+        <label for="hotel">Book name:</label>
+        <input type="text" id="hotel" name="name" placeholder="Book name" value="{{body.name}}">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" placeholder="City" value="{{body.city}}">
+        <label for="free-rooms">Free rooms:</label>
+        <input type="number" id="free-rooms" name="rooms" placeholder="Free rooms" value="{{body.rooms}}">
+        <label for="imgUrl">Image:</label>
+        <input type="text" id="imgUrl" name="imageUrl" placeholder="https://" value="{{body.imageUrl}}">
+
+        <input type="submit" class="create" value="Add">
+    </form>
+</section> --}}

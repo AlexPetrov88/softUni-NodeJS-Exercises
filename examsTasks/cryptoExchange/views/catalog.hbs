@@ -1,0 +1,43 @@
+<section class="crypto-market">
+    <h1><span>Crypto</span> Trade</h1>
+        {{#if mainItems}}
+    <div class="offer-list">
+                {{#each mainItems}}
+                    {{> mainItem}}
+                {{/each}}
+    </div>
+        {{else}}
+    <div class="no-offer">
+        <p>There are no crypto offers found!</p>
+    </div> 
+        {{/if}}
+</section>
+
+{{!-- <section class="catalog" id="catalog">
+    <h2>Book Reviews</h2>
+    <div class="container">
+        <!--If there are book reviews-->
+        {{#if mainItems}}
+            {{#each mainItems}}
+                {{> mainItem}}
+            {{/each}}
+        <!--If there are no book reviews-->
+        {{else}}
+        <h2 class="no-record">There are no book reviews found yet...</h2>
+        {{/if}}
+    </div>
+</section> --}}
+
+{{!-- <section id="viewCatalog" class="background-img">
+        <div class="added-hotels">
+            {{#if hotels}}
+                {{#each hotels}}
+                    {{> mainItem}}
+                {{/each}}
+        </div>
+            {{else}}
+        <div class="guest">
+            There are no Hotels found...
+        </div> 
+            {{/if}}
+</section> --}}

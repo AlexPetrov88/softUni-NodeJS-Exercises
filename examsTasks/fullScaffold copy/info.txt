@@ -1,0 +1,17 @@
+scaffold
+[x] Use of templates
+[x] Use of a database
+[x] Use of express plugin libraries
+[x] User registration
+[X] - cookies and session
+[x] - hashing of passwords
+[x] - JSON Web Token
+[x] Error handling
+[x] User role guards
+
+Full CRUD (application specific)
+- catalog
+- details
+- create
+- edit
+- delete

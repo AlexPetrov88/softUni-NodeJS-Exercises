@@ -1,0 +1,40 @@
+<section class="edit-form-container">
+        {{#with hotel}}
+        <form method="post" action="/hotel/{{_id}}/edit">
+            <h3>Edit Book Review</h3>
+            <label>Title</label>
+            <input type="text" name="title" class="box" value="{{title}}" id="">
+            <label>Author</label>
+            <input type="text" name="author" class="box" value="{{author}}" id="">
+            <label>Genre</label>
+            <input type="text" name="genre" class="box" value="{{genre}}" id="">
+            <label>Stars</label>
+            <input type="number" name="stars" class="box" value="{{stars}}" id="">
+            <label>Image</label>
+            <input type="text" name="image" class="box" value="{{image}}" id="">
+            <label>Review</label>
+            <textarea type="text" class="box"
+                name="review">{{review}}</textarea>
+            <input type="submit" value="Edit" class="btn">
+        </form>
+        {{/with}}
+    </section>
+
+{{!-- <section id="viewAddhotel">
+    <h2>Edit existing hotel</h2>
+    {{#with hotel}}
+    <form id="formAddhotel" method="post" action="/hotel/{{_id}}/edit">
+        <label for="hotel">Book name:</label>
+        <input type="text" id="hotel" name="name" value="{{name}}">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" value="{{city}}">
+        <label for="free-rooms">Free rooms:</label>
+        <input type="number" id="free-rooms" name="rooms" value="{{rooms}}">
+        <label for="imgUrl">Image:</label>
+        <input type="text" id="imgUrl" name="imageUrl" value="{{imageUrl}}">
+
+        <input type="submit" class="create" value="Add">
+    </form>
+    {{/with}}
+</section> --}}
+

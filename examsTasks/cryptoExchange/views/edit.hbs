@@ -1,0 +1,67 @@
+<section id="edit-container">
+    {{#with mainItem}}
+    <div class="edit-container-info">
+        <h1>Edit Announcement</h1>
+        <form method="post" action="/mainItem/{{_id}}/edit">
+            <label>Name:</label>
+            <input type="text" id="name" name="name" value="{{name}}">
+            <label>Image:</label>
+            <input type="text" id="image" name="image" value="{{image}}"
+            <label>Price:</label>
+            <input type="number" id="price" name="price" value="{{price}}">
+            <label>Description:</label>
+            <textarea name="description" id="description">{{description}}</textarea>
+            <label>Payment method:</label>
+            <select id="payment" name="payment">
+                <option value="crypto-wallet">Crypto Wallet</option>
+                <option value="credit-card">Credit Card</option>
+                <option value="debit-card">Debit Card</option>
+                <option value="paypal" selected>PayPal</option>
+            </select>
+            <input type="submit" id="btn" value="EDIT"></input>
+        </form>
+    </div>
+    {{/with}}
+</section>
+
+
+{{!-- <section class="edit-form-container">
+    {{#with mainItem}}
+    <form method="post" action="/mainItem/{{_id}}/edit">
+        <h3>Edit Book Review</h3>
+        <label>Title</label>
+        <input type="text" name="title" class="box" value="{{title}}" id="">
+        <label>Author</label>
+        <input type="text" name="author" class="box" value="{{author}}" id="">
+        <label>Genre</label>
+        <input type="text" name="genre" class="box" value="{{genre}}" id="">
+        <label>Stars</label>
+        <input type="number" name="stars" class="box" value="{{stars}}" id="">
+        <label>Image</label>
+        <input type="text" name="image" class="box" value="{{image}}" id="">
+        <label>Review</label>
+        <textarea type="text" class="box"
+            name="review">{{review}}</textarea>
+        <input type="submit" value="Edit" class="btn">
+    </form>
+    {{/with}}
+</section> --}}
+
+{{!-- <section id="viewAddhotel">
+    <h2>Edit existing hotel</h2>
+    {{#with hotel}}
+    <form id="formAddhotel" method="post" action="/hotel/{{_id}}/edit">
+        <label for="hotel">Book name:</label>
+        <input type="text" id="hotel" name="name" value="{{name}}">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" value="{{city}}">
+        <label for="free-rooms">Free rooms:</label>
+        <input type="number" id="free-rooms" name="rooms" value="{{rooms}}">
+        <label for="imgUrl">Image:</label>
+        <input type="text" id="imgUrl" name="imageUrl" value="{{imageUrl}}">
+
+        <input type="submit" class="create" value="Add">
+    </form>
+    {{/with}}
+</section> --}}
+

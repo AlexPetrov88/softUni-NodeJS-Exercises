@@ -1,0 +1,22 @@
+<main class="edit">
+    <section id="create">
+        {{#with mainItem}}
+        <div class="form">
+            <h2>Edit item</h2>
+            <form class="create-form" method="post" action="/mainItem/{{_id}}/edit">
+                <input type="text" name="name" id="name" placeholder="Name" value="{{name}}" />
+                <input type="text" name="years" id="years" placeholder="Years" value="{{years}}" />
+                <input type="text" name="kind" id="kind" placeholder="Kind" value="{{kind}}" />
+                <input type="text" name="image" id="animal-img" placeholder="Image url" value="{{image}}" />
+                <input type="text" name="needs" id="needs-of" placeholder="Needs of" value="{{needs}}" />
+                <input type="text" name="location" id="location" placeholder="Location" value="{{location}}" />
+                <textarea id="description" placeholder="Description..."
+                    name="description">{{description}}</textarea>
+
+                <button type="submit">Edit</button>
+            </form>
+        </div>
+        {{/with}}
+    </section>
+</main>
+

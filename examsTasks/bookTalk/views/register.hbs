@@ -1,0 +1,33 @@
+<section class="register-form-container">
+
+        <form method="post" action="/auth/register">
+            <h3>Register</h3>
+            <label>Email</label>
+            <input type="email" name="email" class="box" id="" {{body.email}}>
+            <label>Username</label>
+            <input type="text" name="username" class="box" id="" {{body.username}}>
+            <label>Password</label>
+            <input type="password" name="password" class="box" id="">
+            <label>Confirm Password</label>
+            <input type="password" name="repass" class="box" id="">
+            <input type="submit" value="Register" class="btn">
+            <p>Have an account ? <a href="/auth/login">Click here</a></p>
+        </form>
+    </section>
+
+{{!-- <section id="viewRegister">
+        <h2>Create your account:</h2>
+    
+        <form id="formRegister" method="post" action="/auth/register">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Email" value="{{body.email}}">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your Username" value="{{body.username}}">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Password">
+            <label for="rePassword">Repeat Password:</label>
+            <input type="password" id="rePassword" name="repass" placeholder="Repeat Password">
+            <input type="submit" class="register" value="Register">
+        </form>
+       
+</section> --}}
