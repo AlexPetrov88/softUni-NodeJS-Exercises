@@ -1,0 +1,27 @@
+[
+  {
+    "id": "asdf1234",
+    "name": "Car wiper",
+    "price": 40
+  },
+  {
+    "id": "asdf4567",
+    "name": "Car headlight bulb",
+    "price": 10
+  },
+  {
+    "id": "asdf9876",
+    "name": "Car tire",
+    "price": 150
+  },
+  {
+    "id": "asdf9371",
+    "name": "Alex",
+    "price": 123
+  },
+  {
+    "id": "asdf7707",
+    "name": "Alex",
+    "price": 33
+  }
+]
